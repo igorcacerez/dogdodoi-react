@@ -12,13 +12,7 @@ function App() {
     <div className="aplicacao">
       <Cabecalho />
       <main className="conteudo-principal">
-        <Routes>
-          <Route path="/" element={<PaginaHome />} />
-          <Route path="/quem-somos" element={<PaginaQuemSomos />} />
-          <Route path="/contato" element={<PaginaContato />} />
-          <Route path="/servicos/:id" element={<PaginaDetalheServico />} />
-          <Route path="*" element={<PaginaNaoEncontrada />} />
-        </Routes>
+        {/* ADICIONE AS ROTAS AQUI  */}
       </main>
       <Rodape />
     </div>
